@@ -13,11 +13,12 @@ package GraphObj.Utils;
 public class ScaleTrans {
 
 
-    private double DPmm = 11.811        ;//dot per mm
+    private double DPmm = 11.811;//dot per mm
     //以上为默认值
     private double scale = 1.0;
 
-    public ScaleTrans() {
+    public ScaleTrans(double dpi) {
+        DPmm = dpi / 25.4;
     }
 
     public ScaleTrans(double scale, double DPI) {
@@ -27,7 +28,7 @@ public class ScaleTrans {
         this.scale = scale;
     }
 
-    public double bit2mm( double potnums) {
-        return potnums * DPmm / scale;
+    public double bit2mm(double potnums) {
+        return potnums / DPmm * scale;
     }//像素点转毫米
 }

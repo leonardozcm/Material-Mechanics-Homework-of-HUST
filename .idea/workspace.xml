@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78ca9f31-6aa8-4066-b2f4-9421e6c07794" name="Default" comment="" />
+    <list default="true" id="78ca9f31-6aa8-4066-b2f4-9421e6c07794" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/test/output_Axis_test.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test/output_Core_test.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test/test.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test2/output_Axis_test2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test2/output_Core_test2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test2/test2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test3/output_Axis_test3.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test3/output_Core_test3.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test3/test3.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test4/output_Axis_test4.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test4/output_Core_test4.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test4/test4.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test5/output_Axis_test5.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test5/output_Core_test5.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test5/test5.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test6/output_Axis_test6.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test6/output_Core_test6.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test6/test6.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GraphObj/AppPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GraphObj/BitmapHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GraphObj/BitmapHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GraphObj/Utils/ScaleTrans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GraphObj/Utils/ScaleTrans.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,25 +39,21 @@
       <file leaf-file-name="BitmapHolder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/BitmapHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="1334">
+              <caret line="312" column="17" selection-start-line="312" selection-start-column="17" selection-end-line="312" selection-end-column="17" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#BitmapHolder#0;class#BitmapHolder#0" />
-                <element signature="method#BitmapHolder#1;class#BitmapHolder#0" />
                 <element signature="method#bitmapPrint#0;class#BitmapHolder#0" />
                 <element signature="method#runCulAPC#0;class#BitmapHolder#0" />
-                <element signature="method#runCulAM#0;class#BitmapHolder#0" />
                 <element signature="method#drawAxis#0;class#BitmapHolder#0" />
                 <element signature="method#runCulCore#0;class#BitmapHolder#0" />
                 <element signature="method#scan#0;class#BitmapHolder#0" />
-                <element signature="method#culCentroid#0;class#BitmapHolder#0" />
-                <element signature="method#culAxis#0;class#BitmapHolder#0" />
                 <element signature="method#culMOI#0;class#BitmapHolder#0" />
                 <element signature="method#veriCore#0;class#BitmapHolder#0" />
                 <element signature="method#vC_culY#0;class#BitmapHolder#0" />
                 <element signature="method#vC_culX#0;class#BitmapHolder#0" />
                 <element signature="method#culBendCen#0;class#BitmapHolder#0" />
-                <element signature="method#printResult#0;class#BitmapHolder#0" />
               </folding>
             </state>
           </provider>
@@ -43,20 +62,35 @@
       <file leaf-file-name="GraphHolder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/GraphHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            <state relative-caret-position="320">
+              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="AppPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/AppPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AppPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="144">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="21" column="19" selection-start-line="9" selection-start-column="3" selection-end-line="21" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -64,8 +98,11 @@
       <file leaf-file-name="ScaleTrans.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/Utils/ScaleTrans.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+            <state relative-caret-position="304">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,8 +110,11 @@
       <file leaf-file-name="doWork.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/doWork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+            <state relative-caret-position="128">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,6 +136,7 @@
       <find>i,j</find>
       <find>int j</find>
       <find>get</find>
+      <find>Sys</find>
     </findStrings>
     <replaceStrings>
       <replace>int x</replace>
@@ -103,15 +144,19 @@
       <replace>int y</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/GraphObj/GraphHolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/GraphObj/AppPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GraphObj/Utils/ScaleTrans.java" />
         <option value="$PROJECT_DIR$/src/main/java/GraphObj/doWork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GraphObj/Utils/ScaleTrans.java" />
         <option value="$PROJECT_DIR$/src/main/java/GraphObj/BitmapHolder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AppPage.java" />
       </list>
     </option>
   </component>
@@ -123,9 +168,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="546" />
-    <option name="y" value="-18" />
-    <option name="width" value="1553" />
+    <option name="x" value="545" />
+    <option name="y" value="-20" />
+    <option name="width" value="1555" />
     <option name="height" value="880" />
   </component>
   <component name="ProjectView">
@@ -133,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,18 +207,23 @@
               <item name="autocounter" type="b2602c69:ProjectViewProjectNode" />
               <item name="autocounter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="GraphObj" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Stuffs\Your Dream\autocounter\src\test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Stuffs\Your Dream\autocounter\src\main\java" />
       <recent name="D:\Stuffs\Your Dream\autocounter\src" />
@@ -194,13 +243,13 @@
   </component>
   <component name="RunManager">
     <configuration name="AppPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GraphObj.AppPage" />
+      <option name="MAIN_CLASS_NAME" value="AppPage" />
       <module name="autocounter" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\59771\Desktop\test.bmp" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\59771\Desktop\test2.bmp" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GraphObj.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,14 +328,15 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32884097" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.1902834" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44474393" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32884097" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.831309" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32793522" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19504021" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16823056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -297,7 +347,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.19137466" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -366,7 +415,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/AppPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AppPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" selection-start-column="17" selection-end-column="17" />
@@ -401,7 +450,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/AppPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AppPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
@@ -436,7 +485,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/AppPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AppPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
@@ -464,7 +513,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/AppPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AppPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
@@ -492,7 +541,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/AppPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AppPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
@@ -520,7 +569,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/AppPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AppPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="66" lean-forward="true" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
@@ -555,7 +604,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/AppPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AppPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
@@ -575,7 +624,7 @@
     <entry file="file://$PROJECT_DIR$/autocounter.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/AppPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AppPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
@@ -584,13 +633,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/autocounter.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-imaging/1.0-SNAPSHOT/commons-imaging-1.0-20170517.221134-118.jar!/org/apache/commons/imaging/Imaging.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -641,58 +683,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/doWork.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AppPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        <state relative-caret-position="144">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/GraphHolder.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        <state relative-caret-position="336">
+          <caret line="21" column="19" selection-start-line="9" selection-start-column="3" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/Utils/ScaleTrans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/AppPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/doWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="128">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/Utils/ScaleTrans.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/GraphHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        <state relative-caret-position="320">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GraphObj/BitmapHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="22" />
+        <state relative-caret-position="1334">
+          <caret line="312" column="17" selection-start-line="312" selection-start-column="17" selection-end-line="312" selection-end-column="17" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#BitmapHolder#0;class#BitmapHolder#0" />
-            <element signature="method#BitmapHolder#1;class#BitmapHolder#0" />
             <element signature="method#bitmapPrint#0;class#BitmapHolder#0" />
             <element signature="method#runCulAPC#0;class#BitmapHolder#0" />
-            <element signature="method#runCulAM#0;class#BitmapHolder#0" />
             <element signature="method#drawAxis#0;class#BitmapHolder#0" />
             <element signature="method#runCulCore#0;class#BitmapHolder#0" />
             <element signature="method#scan#0;class#BitmapHolder#0" />
-            <element signature="method#culCentroid#0;class#BitmapHolder#0" />
-            <element signature="method#culAxis#0;class#BitmapHolder#0" />
             <element signature="method#culMOI#0;class#BitmapHolder#0" />
             <element signature="method#veriCore#0;class#BitmapHolder#0" />
             <element signature="method#vC_culY#0;class#BitmapHolder#0" />
             <element signature="method#vC_culX#0;class#BitmapHolder#0" />
             <element signature="method#culBendCen#0;class#BitmapHolder#0" />
-            <element signature="method#printResult#0;class#BitmapHolder#0" />
           </folding>
         </state>
       </provider>

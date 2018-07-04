@@ -43,7 +43,7 @@ public class BitmapHolder extends GraphHolder implements doWork {
     private int[] Axispixels;
 
 
-    BitmapHolder(File bitmapfile, double mscale) {
+    public BitmapHolder(File bitmapfile, double mscale) {
         bitfile = bitmapfile;
         try {
             FileInputStream fielstream = new FileInputStream(bitmapfile);
@@ -51,7 +51,9 @@ public class BitmapHolder extends GraphHolder implements doWork {
 
 
             ImageInfo imageInfo = Imaging.getImageInfo(bitmapfile);
-            System.out.println(imageInfo.getPhysicalHeightDpi() + ":" + imageInfo.getPhysicalWidthDpi());
+            System.out.println("图片DPI： "+imageInfo.getPhysicalHeightDpi() + ":" + imageInfo.getPhysicalWidthDpi());
+            scaleTrans = new ScaleTrans((double) imageInfo.getPhysicalHeightDpi());
+
             if (imageInfo.getPhysicalHeightDpi() == imageInfo.getPhysicalWidthDpi()) {
                 scaleTrans = new ScaleTrans(mscale, imageInfo.getPhysicalHeightDpi());
             } else {
@@ -68,13 +70,7 @@ public class BitmapHolder extends GraphHolder implements doWork {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
 
-    BitmapHolder(BufferedImage img) {
-        setWidth(img.getWidth());
-        setHeight(img.getHeight());
-        Axispixels = corepixels = pixels = new int[width * height];
-        img.getRGB(0, 0, width, height, pixels, 0, width);
     }
 
     void bitmapPrint() {
@@ -199,7 +195,6 @@ public class BitmapHolder extends GraphHolder implements doWork {
         }
 
         int x = 0, y = 0;
-        System.out.println(Math.tan(AxisRad));
         for (int i = 0; i < width; i++) {
 
             y = (int) Math.round(CentroidYCounter - Math.tan(AxisRad) * (i - CentroidXCounter));
@@ -364,13 +359,15 @@ public class BitmapHolder extends GraphHolder implements doWork {
     }
 
     public void printResult() {
-        System.out.println("周长是： " + PerimeterCounter);
-        System.out.println("面积是： " + AreaCounter);
-        System.out.println("x形心是： " + CentroidXCounter);
-        System.out.println("y形心是： " + CentroidYCounter);
-        System.out.println("最小惯性积是 " + AxisCounter);
-        System.out.println("形心角是 " + Math.toDegrees(AxisRad));
-        System.out.println("Y主惯性矩为：" + MOIYCounter + " ,Z主惯性矩为：" + MOIZCounter);
+        System.out.println("--------------------------------------------------------------");
+        System.out.println("周长是： " + PerimeterCounter * scaleTrans.bit2mm(1) + " mm");
+        System.out.println("面积是： " + AreaCounter * scaleTrans.bit2mm(1) * scaleTrans.bit2mm(1) + " mm²");
+        System.out.println("x形心是：x = " + CentroidXCounter * scaleTrans.bit2mm(1) + " mm处");
+        System.out.println("y形心是：y =  " + CentroidYCounter * scaleTrans.bit2mm(1) + " mm处");
+        System.out.println("形心角是 " + Math.toDegrees(AxisRad) + "°");
+        System.out.println("Y主惯性矩为：" + MOIYCounter * scaleTrans.bit2mm(1) * scaleTrans.bit2mm(1) * scaleTrans.bit2mm(1) * scaleTrans.bit2mm(1)
+                + " mm4,Z主惯性矩为：" + MOIZCounter * scaleTrans.bit2mm(1) * scaleTrans.bit2mm(1) * scaleTrans.bit2mm(1) * scaleTrans.bit2mm(1) + " mm4");
+        System.out.println("输出文件夹为 " + bitfile.getParent());
     }
 
     private double toRadians(double angel) {
